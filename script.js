@@ -44,3 +44,10 @@ function calc() {
     currentOp = "";
     firstNum = "";
 }
+
+function clearDisplay() {
+    oldNum = "";
+    currentOp = "";
+    firstNum = "";
+    display.value = "";
+}
